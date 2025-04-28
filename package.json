@@ -1,0 +1,12 @@
+{
+  "name": "tech-interview-prep",
+  "version": "1.0.0",
+  "description": "Technical interview preparation exercises",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
