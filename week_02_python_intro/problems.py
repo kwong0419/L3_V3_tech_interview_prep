@@ -1,8 +1,8 @@
 def reverse_string(s):
-    pass
+    return s[::-1]
 
 def find_max(lst):
-    pass
+    return max(lst)
 
 def is_palindrome(word):
-    pass
+    return word == word[::-1]
