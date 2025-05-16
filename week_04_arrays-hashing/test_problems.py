@@ -11,3 +11,9 @@ def test_two_sum():
 def test_is_anagram():
     assert is_anagram("anagram", "nagaram")
     assert not is_anagram("rat", "car")
+
+if __name__ == "__main__":
+    test_contains_duplicate()
+    test_two_sum()
+    test_is_anagram()
+    print("All tests have passed!")
