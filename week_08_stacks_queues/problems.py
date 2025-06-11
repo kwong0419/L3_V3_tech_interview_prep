@@ -42,7 +42,6 @@ def min_stack():
 
         def getMin(self) -> int:
             return self.min_stack[-1]
-
     return MinStack()
 # Time Complexity: 
 # push(): O(1)
