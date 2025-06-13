@@ -3,6 +3,11 @@
 # 2. Detect Cycle in Linked List
 # 3. Merge Two Sorted Lists
 
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+
 def reverse_linked_list(head):
     prev = None
     current = head
@@ -37,6 +42,7 @@ def merge_two_sorted_lists(l1, l2):
         else:
             current.next = l2
             l2 = l2.next
+        current = current.next
     current.next = l1 or l2
     return dummy.next
 # Time Complexity: O(n)
