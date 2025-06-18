@@ -28,7 +28,7 @@ def test_reverse_linked_list():
     assert reversed_head.next.next.next is None
 
     print("All test cases passed!")
-    
+
 def test_detect_cycle():
     # Test case 1: Empty list
     head = None
@@ -87,4 +87,4 @@ def test_merge_two_sorted_lists():
 if __name__ == "__main__":
     test_reverse_linked_list()
     test_detect_cycle()
-    test_merge_two_sorted_lists()
+test_merge_two_sorted_lists()
